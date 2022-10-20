@@ -1,22 +1,6 @@
 import java.util.Scanner;
 
 public class two {
-    // C représente le nombre de type de chauffage
-    // M représente le nombre de Maison
-
-    // Ligne 1 : 2 entiers C et M séparés par des espaces. C représente le nombre de types de chauffage, M le nombre de maisons. Il est garanti que C < 10 et M < 20
-    // Ligne 2 : C entiers distincts séparés par des espaces, représentants les capacités des différents chauffages
-    // Ligne 3 : M entiers séparés par des espaces représentants les besoins de chaque maison. Il est garanti que tous les besoins peuvent être couvert par au moins un type de chauffage.
-
-    // Pour chaque maison, afficher le nombre de chauffage nécessaire pour couvrir le besoin de cette maison.
-    // Le nombre de chauffage nécessaire est le minimum de chauffage dont la capacité est supérieure ou égale au besoin de cette maison.
-    // Si aucun chauffage ne peut couvrir le besoin de cette maison, afficher -1.
-
-    // Trouvez pour chaque maison le type de chauffage à installer, puis renvoyez la somme des puissances de chauffage installées.
-    // Un entier, représentant la somme des capacités des chauffages à installer pour répondre aux besoins de toutes les maisons.
-
-
-
 
     public static void main( String[] argv ) throws Exception {
         String  line;
